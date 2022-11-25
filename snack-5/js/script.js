@@ -15,3 +15,12 @@ if (userNumber % 2 == 0) {
 } else {
     console.warn(userNumber + 1);
 }
+
+//--------------------------------------------------------------------------------------------//
+
+if (userNumber % 2 == 1) {
+
+    userNumber + 1;
+}
+
+console.error(userNumber);
