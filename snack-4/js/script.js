@@ -8,14 +8,12 @@
     se è dispari inseriscilo nell'array.
  */
 
-let numberArray = [];
-let userNumber;
+const numberArray = [];
 
 for (let i = 0; i < 6; i++) {
-    userNumber = parseInt(prompt('Inserisci un numero'));
+    let userNumber = parseInt(prompt('Inserisci un numero'));
     if (userNumber % 2 == 1) {
         numberArray.push(userNumber)
     }
 }
-
 console.log(numberArray)
