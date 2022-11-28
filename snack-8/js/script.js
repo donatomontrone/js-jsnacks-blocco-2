@@ -10,7 +10,7 @@ const lastnames = ['Cappelletti', 'Jager', 'Porcinelli' , 'Buffetti' , 'Forghier
 const guests = [];
 
 
-while (guests.length < 7) {
+while (guests.length < 20) {
     const randomNamesIndex = Math.floor(Math.random() * (names.length));
     const randomLastnamesIndex  = Math.floor(Math.random() * (lastnames.length));
 
@@ -18,5 +18,4 @@ while (guests.length < 7) {
 
     guests.push(guest);
 }
-
 console.log(guests);
